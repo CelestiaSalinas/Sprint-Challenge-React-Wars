@@ -23,6 +23,7 @@ export default function PersonList() {
             key={people.name}
             name={people.name}
             gender={people.gender}
+            birth_year={people.birth_year}
           />
         );
       })}
